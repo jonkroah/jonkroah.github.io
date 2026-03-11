@@ -1,6 +1,6 @@
 title: Jon Kroah
 description: 
-url: "jonkroah.github.ioa" # Your GitHub Pages URL, e.g., https://username.github.io
+url: "jonkroah.github.io" # Your GitHub Pages URL, e.g., https://username.github.io
 
 # Theme
 theme: minima
@@ -15,9 +15,9 @@ header_pages:
   - cv.md
 
 # Social links (appear in footer)
-author:
-  name: Jon Kroah
-  email: jkroah@wisc.edu
+#author:
+#  name: Jon Kroah
+#  email: jkroah@wisc.edu
 
 # Build settings
 markdown: kramdown
