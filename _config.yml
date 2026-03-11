@@ -1,0 +1,30 @@
+title: Jon Kroah
+description: 
+url: "jonkroah.github.ioa" # Your GitHub Pages URL, e.g., https://username.github.io
+
+# Theme
+theme: minima
+
+# Minima theme customization
+minima:
+  skin: classic  # Options: classic, dark, auto, solarized, solarized-dark
+
+# Navigation links (appear in header)
+header_pages:
+  - research.md
+  - cv.md
+
+# Social links (appear in footer)
+author:
+  name: Jon Kroah
+  email: jkroah@wisc.edu
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
