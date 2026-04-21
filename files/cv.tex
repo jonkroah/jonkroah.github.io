@@ -1,0 +1,199 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+\usepackage[T1]{fontenc}
+\usepackage[sc]{mathpazo}
+
+% Set your name here
+\def\name{Jonathan Kroah}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+	colorlinks = true,
+	urlcolor = blue,
+	pdfauthor = {\name},
+	pdfkeywords = {economics, statistics, mathematics},
+	pdftitle = {\name: Curriculum Vitae},
+	pdfsubject = {Curriculum Vitae},
+	pdfpagemode = UseNone
+}
+
+\geometry{
+	body={6.5in, 8.5in},
+	left=1.0in,
+	top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+	\begin{list}{}{
+			\setlength{\leftmargin}{1.5em}
+		}
+	}{
+	\end{list}
+}
+
+\begin{document}
+	
+	% Place name at left
+	%{\huge \name}
+	
+	% Alternatively, print name centered and bold:
+	\centerline{\huge \bf \name}
+	
+	\vspace{0.25in}
+	
+	\begin{minipage}{0.45\linewidth}
+		University of Wisconsin-Madison \\
+		Department of Economics \\
+		1180 Observatory Drive, Room 8410 \\
+		Madison, WI 53703
+	\end{minipage}
+	\begin{minipage}{0.45\linewidth}
+		\begin{tabular}{ll}
+			%Fax: &  (919) 962-5678 \\
+			Website: & \href{https://sites.google.com/view/jon-kroah}{\tt https://sites.google.com/view/jon-kroah} \\
+			Email: & \href{mailto:jkroah@wisc.edu}{\tt jkroah@wisc.edu} \\
+			Mobile: & (443) 907-4610 \\
+		\end{tabular}
+	\end{minipage}
+	
+	
+	\section*{Education}
+	\begin{itemize}
+		\item PhD, Economics, University of Wisconsin-Madison \hfill 2021-Present
+		\item MS, Economics, University of Wisconsin-Madison \hfill 2021-2023
+		% \item Visiting Student, Yale University \hfill 2019-2021
+		% \begin{itemize}
+		% 	\item Coursework in mathematical statistics and real analysis
+		% \end{itemize}
+		\item BA, Economics-Mathematics, Columbia University \hfill 2012-2016
+	\end{itemize}
+	
+	
+	\section*{Research Interests}
+	\begin{itemize}
+		\item Industrial Organization, Health Economics, Public Economics
+	\end{itemize}
+	
+	
+	\section*{Professional \& Research Experience}
+	\begin{itemize}
+		\item Research Assistant for Profs. Panle Jia Barwick, Lu Han, and Dayin Zhang \hfill 2023-Present
+		\item Teaching Assistant, University of Wisconsin-Madison, Department of Economics \hfill 2021-Present
+		\item Pre-Doctoral Fellow, Yale University, Tobin Center for Economic Policy \hfill 2019-2021
+		\item Senior Analyst, Compass Lexecon (Washington, DC) \hfill 2018-2019
+		\item Analyst, Compass Lexecon (Washington, DC) \hfill 2016-2018
+		\item Summer Analyst, Compass Lexecon (Washington, DC) \hfill 2015
+		\item Undergraduate Research Assistant, Columbia University, Columbia Business School \hfill 2014-2016
+	\end{itemize}
+	
+	
+	\section*{Work in Progress}
+	\begin{itemize}
+		\item ``The Effect of Step Therapy on Drug Utilization and Spending: Evidence from Medicare Advantage''
+		\item ``Referral Lending and Mortgage Market Power: The Role of Realtors'' (with Panle Jia Barwick, Lu Han, and Dayin Zhang)
+		\item ``The Effect of the WIC Infant Formula Program on Product Variety''
+%		\item Understanding ``Shrinkflation'' (with \href{https://johnfhiggins.github.io/}{John Higgins})
+	\end{itemize}
+
+	\section*{Awards \& Grants}
+	\begin{itemize}
+		\item Fellowship, University of Wisconsin-Madison, Department of Economics \hfill 2026-2027
+		% \item L\&S Teaching Mentor (\textit{nominated}), University of Wisconsin-Madison \hfill 2026
+		\item Research Data Grant, University of Wisconsin-Madison, Department of Economics \hfill 2025
+	\end{itemize}
+	
+%	\section*{Publications}
+%	
+%	\subsection*{Journal Articles}
+%	
+%	\begin{itemize}
+%		\item 
+%	\end{itemize}
+	
+%	\subsection*{Proceedings}
+%	
+%	\begin{itemize}
+%		\item 
+%	\end{itemize}
+	
+	
+	\section*{Teaching Experience}
+	\begin{itemize}
+		\item TA, Intro to Applied Econometrics (ECON 400, Prof. Christopher McKelvey) \hfill S26, S25, S24
+		\item TA, Intro to Econometrics (ECON 410, Prof. Kohei Yata) \hfill F25, F24
+		\item TA, Statistics: Measurement in Economics (ECON 301, Prof. Christopher McKelvey) \hfill F23
+		\item TA, Principles of Macroeconomics (ECON 102, Prof. Steve Trost) \hfill S23
+		\item Head TA, Principles of Microeconomics (ECON 101, Prof. Steve Trost) \hfill F22
+		\item TA, Principles of Microeconomics (ECON 101, Prof. David Johnson) \hfill F21, S22
+		% \item Private Tutoring (ECON 410, ECON 310, ECON 101) \hfill F24-Present
+	\end{itemize}
+	
+	\section*{Professional Service \& Other Activities}
+	\begin{itemize}
+		\item Referee: Journal of Industrial Economics \hfill 2024
+		\item Presenter: Yale Tobin Center Pre-Doctoral Fellow Training \hfill Summer '22, '23, '24, '25
+
+		% \begin{itemize}
+		% 	\item Invited to present ``How to Communicate With Your Faculty Supervisor and Teammates'' to incoming Yale Tobin Center predoctoral fellows in summers 2022, 2023, 2024, 2025
+		% \end{itemize}
+	\end{itemize}
+	
+	\section*{Other Information}
+	\begin{itemize}
+		\item Technical Skills: Stata, Python, Julia, Latex
+		\item Citizenship: USA
+	\end{itemize}
+	
+	
+	\bigskip
+	
+	%Footer
+	% \vfill
+	% \begin{center}
+	% 	\begin{footnotesize}
+	% 		Last updated: \today
+	% 	\end{footnotesize}
+	% \end{center}
+	
+\end{document}
