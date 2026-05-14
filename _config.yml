@@ -23,7 +23,7 @@ repository               : "jonkroah/jonkroah.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  # avatar           : "profile.png"
+  avatar           : "bio-photo.jpg"
   name             : "Jon Kroah"
   pronouns         : "he/him"
   # bio              : "Short biography for the left-hand sidebar"
