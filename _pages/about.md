@@ -7,4 +7,4 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I am a 5th-year Economics PhD Candidate at the University of Wisconsin-Madison.
+Hello! I am a 5th-year Economics PhD Candidate at the University of Wisconsin-Madison. I am interested in industrial organization, health economics, and antitrust.
