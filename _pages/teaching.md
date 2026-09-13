@@ -11,9 +11,9 @@ author_profile: true
     <small> Fall 2025; Fall 2024
 - TA, Statistics: Measurement in Economics (ECON 301) with Prof. Christopher McKelvey  
     <small> Fall 2023
-- TA, Principles of Macroeconomics (ECON 102) with Prof. Steve Trost
+- TA, Principles of Macroeconomics (ECON 102) with Prof. Steve Trost  
     <small> Spring 2023
 - Head TA, Principles of Microeconomics (ECON 101) with Prof. Steve Trost  
     <small> Fall 2022
-- TA, Principles of Microeconomics (ECON 101) with Prof. David Johnson
+- TA, Principles of Microeconomics (ECON 101) with Prof. David Johnson  
     <small> Fall 2021, Spring 2022
